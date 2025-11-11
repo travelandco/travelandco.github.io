@@ -1,14 +1,14 @@
 ---
 layout: trip-report
-title: "Maglić: Roof of BiH"
+title: "Maglić Attempt: Rain and Goulash at Trnovačko Lake"
 date: 2024-08-17
 location: "Bosnia and Herzegovina"
 mountain: "Maglić"
-elevation: 2386
-difficulty: "Moderate"
-duration: "8 hours"
-distance: "14 km"
-tags: [summit, bih, sutjeska]
+elevation: 1517 # Elevation of Trnovačko Lake
+difficulty: "Easy to Moderate"
+duration: "4 hours"
+distance: "10 km"
+tags: [lake, sutjeska, rain, bih]
 featured_image: /assets/images/trips/maglic-cover.jpg
 gallery:
   - /assets/images/trips/maglic-1.jpg
@@ -17,31 +17,25 @@ gallery:
 gpx_file: /assets/gpx/maglic-route.gpx
 ---
 
-Our unforgettable ascent to the highest peak of Bosnia and Herzegovina. Through ancient forests and rocky terrain to 2,386 meters above sea level, Maglić offered us breathtaking views and an experience we'll cherish forever.
+Our attempt to conquer Maglić, the Roof of BiH, turned into an unexpected but charming retreat to the stunning **Trnovačko Lake**. The mountain had other plans for us, delivering a persistent downpour that halted our ascent. Despite not reaching the summit, the experience was memorable.
 
-## The Route
+## The Route and the Rain
 
-We started early morning from the Prijevor mountain hut, following the well-marked trail through the pristine Perućica primeval forest. The initial section took us through dense beech and spruce trees, with the morning mist creating an almost magical atmosphere.
+We started our journey towards the peak, but unfortunately, the rain started shortly after. Our main goal shifted to reaching the famous heart-shaped lake, **Trnovačko Jezero**.
 
-As we gained elevation, the forest gradually gave way to alpine meadows and rocky terrain. The trail became steeper, requiring careful footing on loose rocks and occasional scrambling over boulders.
+The trail to the lake led us through beautiful forest paths, wet and muddy from the relentless rain. Upon arrival, the lake's iconic turquoise waters were shrouded in mist, creating a dramatic, mysterious atmosphere.
 
-## Summit Experience
+## Lakeside Retreat
 
-Reaching the summit cairn after 4 hours of steady climbing was incredibly rewarding. The 360-degree panorama revealed the stunning Sutjeska National Park below, with Trnovačko Lake glistening like a jewel in the valley. To the east, we could see into Montenegro's Durmitor range.
-
-The weather was perfect - clear skies and mild temperatures, allowing us to spend almost an hour at the top, taking photos and enjoying well-deserved snacks.
+The persistent rain made any further ascent too risky, so we took shelter under a makeshift awning near the lake. While waiting for the downpour to cease, we enjoyed a uniquely alpine experience: savoring the incredible aroma of **grah** (bean stew) being cooked and shared by other resourceful hikers nearby. The simple joy of being sheltered, surrounded by breathtaking nature, and inhaling the comforting scent of a warm meal was the true highlight of the day.
 
 ## Descent and Reflections
 
-The descent followed the same route, taking about 3.5 hours with stops. Our legs were tired but spirits high, already planning our return to explore more of Sutjeska's incredible landscape.
+After a few hours, recognizing that the summit was out of reach due to the continuous bad weather, we began our descent. Though we didn't summit Maglić, we connected with the mountain's wild side and found pleasure in the unplanned pause. Our legs were less tired, but our spirits were high, already planning a drier return to explore the higher reaches of Sutjeska National Park.
 
 ### Recommendations
 
-- Start early to avoid afternoon thunderstorms
-- Bring plenty of water (no sources above treeline)
-- Trekking poles highly recommended for descent
-- Check weather forecast - conditions can change rapidly
-
-- Allow full day for the round trip
-
-
+- Always **check the weather forecast** and be prepared for rapid changes, especially rain.
+- The path to Trnovačko Lake is a beautiful hike even if the summit is inaccessible.
+- **Pack extra layers and rain gear**—you never know when you'll need to shelter.
+- Allow plenty of time to enjoy the atmosphere at the lake.
