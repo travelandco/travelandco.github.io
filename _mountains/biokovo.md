@@ -7,7 +7,7 @@ highest_peak: "Sveti Jure (1762m)"
 range: "Dinaric Alps"
 difficulty: "Moderate"
 best_season: "May - October"
-year_visited: "2025"
+visited_date: "2025-04-15" 
 ---
 
 Biokovo is Croatia's second-highest mountain range, rising dramatically from the Adriatic coast near Makarska, offering the unique experience of alpine hiking with Mediterranean views.

@@ -7,7 +7,7 @@ highest_peak: "Maglić (2386m)"
 range: "Dinaric Alps"
 difficulty: "Moderate to Hard"
 best_season: "June - September"
-year_visited: "2025"
+visited_date: "2025-08-15" 
 ---
 
 Maglić proudly stands as the highest peak in Bosnia and Herzegovina, located in the heart of Sutjeska National Park, surrounded by pristine wilderness and one of Europe's last primeval forests.

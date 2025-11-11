@@ -1,12 +1,12 @@
 ---
 layout: mountain
-title: Vlašić Mountain (Paljenik)
+title: Vlašić Mountain (Paljenik Summit)
 location: Central Bosnia and Herzegovina
 elevation: 1,943m (Paljenik Peak)
 coordinates: 44°17′00″N 17°40′00″E
 difficulty: Easy to Moderate
 type: Mountain / Plateau
-year_visited: "2022"
+visited_date: "2022-08-15" 
 
 ---
 
@@ -23,5 +23,4 @@ Vlašić is a major center for both winter and summer tourism, with Babanovac be
 * **Highest Peak:** Paljenik (1,943m).
 * **Accessibility:** The summit is considered an **easy, technically undemanding** hike from areas like Babanovac or the Devečani mountain hut.
 * **Hiking Routes:** Numerous well-marked routes are available, often connecting to the **Via Dinarica Green Trail**.
-
 * **Tourism:** Vlašić has status as an air spa *(zračna banja)* due to its beneficial climate, making it popular for year-round activities like hiking, mountain biking, and skiing.

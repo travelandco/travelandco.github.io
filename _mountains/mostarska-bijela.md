@@ -7,7 +7,7 @@ highest_peak: "Veliki Vijenac (1971m)"
 range: "Dinaric Alps"
 difficulty: "Moderate"
 best_season: "May - October"
-year_visited: "2024"
+visited_date: "2024-08-15" 
 ---
 
 Mostarska Bijela is a limestone mountain near Mostar, offering accessible hiking with stunning views of Herzegovina's dramatic karst landscape and the distant Adriatic coast.

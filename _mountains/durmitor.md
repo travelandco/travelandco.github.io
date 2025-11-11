@@ -7,7 +7,7 @@ highest_peak: "Bobotov Kuk (2523m)"
 range: "Dinaric Alps"
 difficulty: "Moderate to Hard"
 best_season: "June - September"
-year_visited: "2024"
+visited_date: "2024-07-15" 
 ---
 
 Durmitor is Montenegro's crown jewel, a UNESCO World Heritage site featuring dramatic limestone peaks, deep canyons, glacial lakes, and some of the Balkans' most spectacular mountain scenery.

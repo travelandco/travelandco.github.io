@@ -7,7 +7,7 @@ highest_peak: "Treskavica (2088m)"
 range: "Dinaric Alps"
 difficulty: "Moderate"
 best_season: "June - September"
-year_visited: "2024"
+visited_date: "2024-06-15" 
 
 ---
 

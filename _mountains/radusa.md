@@ -7,7 +7,7 @@ highest_peak: "Raduša (2062m)"
 range: "Dinaric Alps"
 difficulty: "Moderate"
 best_season: "June - September"
-year_visited: "2024"
+visited_date: "2024-07-15" 
 ---
 
 Raduša is a relatively gentle mountain in central Bosnia, known for its rolling grassy slopes, shepherd traditions, and the historic Zahum peak that dominates the landscape.

@@ -6,7 +6,7 @@ elevation: 98m (Waterfall Height)
 coordinates: 43°56′55″N 18°26′56″E
 difficulty: Easy to Moderate
 type: Waterfall / Nature Monument
-year_visited: "2025"
+visited_date: "2024-11-15" 
 
 ---
 

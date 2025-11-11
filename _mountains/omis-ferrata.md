@@ -6,7 +6,7 @@ elevation: ~330m (Vertical Gain)
 coordinates: 43°26′51″N 16°41′41″E (Approximate start)
 difficulty: Easy (Grade B)
 type: Via Ferrata / Protected Climbing Route
-year_visited: "2023"
+visited_date: "2023-01-15" 
 
 ---
 

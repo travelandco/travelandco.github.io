@@ -8,7 +8,7 @@ range: "Dinaric Alps"
 difficulty: "Moderate to Hard"
 best_season: "June - September"
 featured_image: /assets/images/mountains/cvrsnica.jpg
-year_visited: "2024"
+visited_date: "2023-10-15" 
 ---
 
 Čvrsnica is a stunning mountain massif in the Dinaric Alps of Bosnia and Herzegovina, known for its dramatic limestone formations, pristine meadows, and the iconic Hajdučka Vrata natural arch.

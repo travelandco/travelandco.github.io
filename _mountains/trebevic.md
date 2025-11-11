@@ -7,7 +7,7 @@ highest_peak: "Trebević (1629m)"
 range: "Dinaric Alps"
 difficulty: "Easy"
 best_season: "April - November"
-year_visited: "2025"
+visited_date: "2025-07-15" 
 
 ---
 
