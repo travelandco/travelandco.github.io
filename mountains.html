@@ -9,17 +9,33 @@ title: Our Mountains
 </section>
 
 <div class="container">
-    <div class="mountains-grid-large">
-        {% for mountain in site.mountains %}
-        <div class="mountain-card-detailed">
-            <div class="mountain-icon">⛰️</div>
-            <h3>{{ mountain.title }}</h3>
-            <p class="mountain-subtitle">{{ mountain.subtitle }}</p>
-            {% if mountain.highest_peak %}
-            <p class="mountain-elevation">{{ mountain.highest_peak }}</p>
-            {% endif %}
-            <p class="mountain-location">{{ mountain.location }}</p>
+    {% assign mountains_by_year = site.mountains | group_by_exp: "mountain", "mountain.visited_date | date: '%Y'" | sort: "name" | reverse %}
+    
+    {% for year_group in mountains_by_year %}
+        <!-- Year Header -->
+        <div class="year-header">
+            <div class="year-badge">
+                <span class="icon">📅</span>
+                <span>{{ year_group.name }}</span>
+            </div>
         </div>
-        {% endfor %}
-    </div>
+        
+        <!-- Mountains Grid for that year -->
+        <div class="mountains-grid-large">
+            {% for mountain in year_group.items %}
+            <div class="mountain-card-detailed">
+                <div class="mountain-icon">⛰️</div>
+                <h3>{{ mountain.title }}</h3>
+                <p class="mountain-subtitle">{{ mountain.subtitle }}</p>
+                {% if mountain.highest_peak %}
+                <p class="mountain-elevation">{{ mountain.highest_peak }}</p>
+                {% endif %}
+                <p class="mountain-location">{{ mountain.location }}</p>
+                {% if mountain.visited_date %}
+                <p class="visit-date">Visited: {{ mountain.visited_date | date: "%B %Y" }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
 </div>
