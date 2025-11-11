@@ -83,9 +83,7 @@ header {
     object-fit: contain;
 }
 
-/* Navigation - Desktop (Right side) */
 .main-nav {
-    /* Mijenjamo iz 'absolute' u 'static' jer je sad .header-content 'space-between' */
     position: static;
     right: 2rem;
     display: flex;
@@ -928,17 +926,15 @@ footer {
     }
 
     .main-nav {
-        /* Navigacija ide u novi red (order 2), preko cijele širine, horizontalno sa ikonama */
         position: static;
         order: 2;
         flex-direction: row; 
         flex-wrap: wrap; 
         width: 100%;
         max-width: 100%;
-        justify-content: space-around; /* Bolje distribuira ikone */
-        padding: 0.8rem 0; /* Veći padding za mobilnu traku */
+        justify-content: space-around; 
+        padding: 0.8rem 0; 
         background: rgba(255, 255, 255, 0.95);
-        /* PROMJENA: Uklanjamo border-radius: 0; kako bi naslijedio 16px zaobljene ivice. */
     }
 
     .nav-item {
@@ -955,7 +951,6 @@ footer {
         background: var(--cream-dark);
     }
 
-    /* SKRIVANJE TEKSTA NA MOBILNOM */
     .nav-item .text {
         display: none;
     }
@@ -963,9 +958,7 @@ footer {
     .nav-item .icon {
         width: 24px;
         height: 24px;
-        /* Povećavamo ikone da budu vidljivije bez teksta */
     }
-    /* KRAJ SKRIVANJA TEKSTA */
 
     .site-title {
         font-size: 1.5rem;
@@ -1007,5 +1000,6 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 
 
