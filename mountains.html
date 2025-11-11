@@ -1,0 +1,25 @@
+---
+layout: default
+title: Our Mountains
+---
+
+<section class="page-hero">
+    <h1>Our Mountains</h1>
+    <p>Discover the peaks we explore</p>
+</section>
+
+<div class="container">
+    <div class="mountains-grid-large">
+        {% for mountain in site.mountains %}
+        <div class="mountain-card-detailed">
+            <div class="mountain-icon">⛰️</div>
+            <h3>{{ mountain.title }}</h3>
+            <p class="mountain-subtitle">{{ mountain.subtitle }}</p>
+            {% if mountain.highest_peak %}
+            <p class="mountain-elevation">{{ mountain.highest_peak }}</p>
+            {% endif %}
+            <p class="mountain-location">{{ mountain.location }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

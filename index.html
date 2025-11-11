@@ -1,0 +1,60 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+   
+    <h1>Discover the Balkan nature</h1>
+   
+</section>
+
+<div class="container">
+    <h2 class="section-title">Latest trip reports</h2>
+
+    <div class="blog-grid">
+        {% for trip in site.trips limit:3 %}
+        <article class="blog-card">
+            {% if trip.featured_image %}
+            <div class="blog-image"
+                style="background-image: url('{{ trip.featured_image | relative_url }}'); background-size: cover; background-position: center;">
+            </div>
+            {% else %}
+            <div class="blog-image">🏔️</div>
+            {% endif %}
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-tag">{{ trip.location }}</span>
+                    {% if trip.difficulty %}
+                    <span class="blog-tag">{{ trip.difficulty }}</span>
+                    {% endif %}
+                </div>
+                <h3>{{ trip.title }}</h3>
+                <p>{{ trip.excerpt | strip_html | truncatewords: 30 }}</p>
+                <a href="{{ trip.url | relative_url }}" class="read-more">Read more →</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="{{ '/trips' | relative_url }}" class="view-all-btn">View All Trip Reports →</a>
+    </div>
+</div>
+
+<div class="mountains-section">
+    <h2 class="section-title">Our mountains</h2>
+    <div class="mountains-grid">
+        {% for mountain in site.mountains %}
+        <div class="mountain-card">
+            <div class="mountain-icon">⛰️</div>
+            <h4>{{ mountain.title }}</h4>
+            <p>{{ mountain.subtitle }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+

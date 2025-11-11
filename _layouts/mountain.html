@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="mountain-guide">
+    <header class="mountain-header">
+        {% if page.featured_image %}
+        <div class="mountain-hero-image" style="background-image: url('{{ page.featured_image | relative_url }}');">
+        </div>
+        {% endif %}
+
+        <div class="mountain-header-content">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <p class="mountain-subtitle-large">{{ page.subtitle }}</p>
+            {% endif %}
+
+            <div class="mountain-info-grid">
+                {% if page.location %}
+                <div class="info-item">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">{{ page.location }}</span>
+                </div>
+                {% endif %}
+                {% if page.highest_peak %}
+                <div class="info-item">
+                    <span class="info-label">Highest Peak</span>
+                    <span class="info-value">{{ page.highest_peak }}</span>
+                </div>
+                {% endif %}
+                {% if page.range %}
+                <div class="info-item">
+                    <span class="info-label">Range</span>
+                    <span class="info-value">{{ page.range }}</span>
+                </div>
+                {% endif %}
+                {% if page.difficulty %}
+                <div class="info-item">
+                    <span class="info-label">Difficulty</span>
+                    <span class="info-value">{{ page.difficulty }}</span>
+                </div>
+                {% endif %}
+                {% if page.best_season %}
+                <div class="info-item">
+                    <span class="info-label">Best Season</span>
+                    <span class="info-value">{{ page.best_season }}</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <div class="mountain-content">
+        {{ content }}
+    </div>
+
+    {% assign related_trips = site.trips | where: "mountain", page.title %}
+    {% if related_trips.size > 0 %}
+    <div class="related-trips">
+        <h2>Trip Reports from {{ page.title }}</h2>
+        <div class="trips-list">
+            {% for trip in related_trips %}
+            <a href="{{ trip.url | relative_url }}" class="trip-link">
+                <span class="trip-link-title">{{ trip.title }}</span>
+                <span class="trip-link-date">{{ trip.date | date: "%B %Y" }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="mountain-footer">
+        <a href="{{ '/mountains' | relative_url }}" class="back-link">← Back to All Mountains</a>
+    </div>
+</article>

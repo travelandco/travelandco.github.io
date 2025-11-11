@@ -1,0 +1,42 @@
+# Site settings
+title: Travel&Co
+description: Association for Hiking and Nature Exploration
+url: https://travelandco.github.io
+baseurl: ""
+
+# Collections
+collections:
+  trips:
+    output: true
+    permalink: /trips/:title/
+  mountains:
+    output: true
+    permalink: /mountains/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "trips"
+    values:
+      layout: "trip-report"
+      author: "Travel&Co Team"
+  - scope:
+      path: ""
+      type: "mountains"
+    values:
+      layout: "mountain"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

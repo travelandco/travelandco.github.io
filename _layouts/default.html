@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon_io/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon_io/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon_io/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/favicon_io/site.webmanifest' | relative_url }}">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% seo %}
+</head>
+
+<body>
+<header>
+    <div class="header-content">
+        <div class="logo-section">
+            <a href="{{ '/' | relative_url }}">
+                <h1 class="site-title">TRAVEL&CO</h1>
+                <div class="logo-image">
+                    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Travel&Co Logo">
+                </div>
+            </a>
+        </div>
+
+        <nav class="main-nav">
+            <a href="{{ '/' | relative_url }}" class="nav-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                    </svg>
+                </span>
+                <span class="text">Home</span>
+            </a>
+            <a href="{{ '/trips' | relative_url }}" class="nav-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7"/>
+                    </svg>
+                </span>
+                <span class="text">Trips</span>
+            </a>
+            <a href="{{ '/mountains' | relative_url }}" class="nav-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>
+                    </svg>
+                </span>
+                <span class="text">Mountains</span>
+            </a>
+            <a href="{{ '/about' | relative_url }}" class="nav-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                </span>
+                <span class="text">About Us</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        {{ content }}
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p><strong>Travel&Co</strong> - Association for Hiking and Nature Exploration</p>
+        <p>We explore, document, and share the beauty of nature</p>
+        
+        <nav class="footer-nav">
+            <a href="https://instagram.com/your_account" target="_blank" class="footer-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+                    </svg>
+                </span>
+                <span class="text">Instagram</span>
+            </a>
+            <a href="mailto:contact@travelco.ba" class="footer-item">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                </span>
+                <span class="text">Contact</span>
+            </a>
+        </nav>
+
+        <p class="footer-copyright">© {{ 'now' | date: "%Y" }} Travel&Co. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>

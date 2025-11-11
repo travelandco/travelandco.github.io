@@ -1,0 +1,37 @@
+---
+layout: default
+title: Trip Reports
+---
+
+<section class="page-hero">
+    <h1>Trip Reports</h1>
+    <p>Explore our adventures across the Balkan mountains</p>
+</section>
+
+<div class="container">
+    <div class="blog-grid">
+        {% for trip in site.trips %}
+        <article class="blog-card">
+            {% if trip.featured_image %}
+            <div class="blog-image"
+                style="background-image: url('{{ trip.featured_image | relative_url }}'); background-size: cover; background-position: center;">
+            </div>
+            {% else %}
+            <div class="blog-image">🏔️</div>
+            {% endif %}
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-tag">{{ trip.location }}</span>
+                    {% if trip.difficulty %}
+                    <span class="blog-tag">{{ trip.difficulty }}</span>
+                    {% endif %}
+                </div>
+                <h3>{{ trip.title }}</h3>
+                <p class="trip-date">{{ trip.date | date: "%B %d, %Y" }}</p>
+                <p>{{ trip.excerpt | strip_html | truncatewords: 30 }}</p>
+                <a href="{{ trip.url | relative_url }}" class="read-more">Read more →</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>

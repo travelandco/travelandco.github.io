@@ -1,0 +1,1011 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --forest-green: #2F5B4F;
+    --rust: #D4915E;
+    --gold: #C9963B;
+    --light-rust: #E5B88F;
+    --cream: #F5F1E8;
+    --cream-dark: #E8E3D8;
+    --text-dark: #2C3E3A;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cream);
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--forest-green) 0%, #1f4539 100%);
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 20px rgba(47, 91, 79, 0.15);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    /* Poravnava logotip lijevo na desktopu */
+    justify-content: space-between; 
+    position: relative;
+}
+
+/* Logo Section - Left Aligned on Desktop */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* Uklanjamo absolutnu poziciju na desktopu */
+    position: static; 
+}
+
+.logo-section a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.site-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--cream);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Navigation - Desktop (Right side) */
+.main-nav {
+    /* Mijenjamo iz 'absolute' u 'static' jer je sad .header-content 'space-between' */
+    position: static;
+    right: 2rem;
+    display: flex;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 0.6rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 12px;
+    background: var(--cream);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--forest-green);
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.nav-item .icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    fill: currentColor;
+}
+
+.nav-item .icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item .text {
+    font-size: 0.9rem;
+}
+
+.nav-item:hover {
+    background: var(--forest-green);
+    color: var(--cream);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(47, 91, 79, 0.3);
+}
+
+.nav-item:hover .icon {
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, var(--cream-dark), var(--cream));
+    padding: 4rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--rust);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Page Hero */
+.page-hero {
+    background: linear-gradient(to bottom, var(--cream-dark), var(--cream));
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--rust);
+}
+
+.page-hero h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.page-hero p {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.section-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-title::after {
+    content: '⋆';
+    display: block;
+    color: var(--gold);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Blog Grid */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+}
+.blog-image {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(135deg, var(--rust), var(--light-rust));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+.blog-card {
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(47, 91, 79, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid var(--cream-dark);
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(47, 91, 79, 0.2);
+}
+
+
+
+.blog-content {
+    padding: 2rem;
+}
+
+.blog-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.blog-tag {
+    background: var(--forest-green);
+    color: var(--cream);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.blog-card h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.trip-date {
+    font-size: 0.9rem;
+    color: var(--rust);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.blog-card p {
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.read-more {
+    display: inline-block;
+    color: var(--rust);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.read-more:hover {
+    color: var(--gold);
+}
+
+.view-all-btn {
+    display: inline-block;
+    background: var(--forest-green);
+    color: var(--cream);
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.view-all-btn:hover {
+    background: var(--rust);
+}
+
+/* Featured Mountains */
+.mountains-section {
+    background: white;
+    padding: 4rem 2rem;
+    border-radius: 32px;
+    margin-bottom: 3rem;
+    border: 3px solid var(--cream-dark);
+}
+
+.mountains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mountain-card {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--cream);
+    border-radius: 20px;
+    transition: transform 0.3s;
+    border: 2px solid var(--cream-dark);
+    cursor: default;
+}
+
+.mountain-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    background: linear-gradient(135deg, var(--forest-green), #245244);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    box-shadow: 0 6px 16px rgba(47, 91, 79, 0.2);
+}
+
+.mountain-card h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
+    color: var(--forest-green);
+    margin-bottom: 0.5rem;
+}
+
+.mountain-card p {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+}
+
+/* Mountains Grid Large */
+.mountains-grid-large {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.mountain-card-detailed {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+    text-align: center;
+    cursor: default;
+}
+
+.mountain-card-detailed h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: var(--forest-green);
+    margin-bottom: 0.5rem;
+}
+
+.mountain-subtitle {
+    color: var(--rust);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.mountain-elevation,
+.mountain-location {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-top: 0.5rem;
+}
+
+/* Trip Report Page */
+.trip-report {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.trip-header {
+    margin-bottom: 3rem;
+}
+
+.trip-hero-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+}
+
+.trip-header-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+}
+
+.trip-header-content h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 1.5rem;
+}
+
+.trip-meta {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.meta-item {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+}
+
+.trip-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--cream-dark);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--rust);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--forest-green);
+    font-weight: 600;
+}
+
+.trip-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.9;
+}
+
+.trip-content h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--forest-green);
+    margin: 2rem 0 1rem;
+    font-size: 1.8rem;
+}
+
+.trip-content h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--rust);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.4rem;
+}
+
+.trip-content p {
+    margin-bottom: 1.2rem;
+}
+
+.trip-content ul,
+.trip-content ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.trip-content li {
+    margin-bottom: 0.5rem;
+}
+
+.trip-gallery {
+    margin-bottom: 2rem;
+}
+
+.trip-gallery h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--forest-green);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(47, 91, 79, 0.15);
+}
+
+.trip-map {
+    background: white;
+    padding: 2rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.trip-map h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+}
+
+.download-gpx {
+    display: inline-block;
+    background: var(--forest-green);
+    color: var(--cream);
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.download-gpx:hover {
+    background: var(--rust);
+}
+
+.trip-footer,
+.mountain-footer {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--rust);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: var(--gold);
+}
+
+/* Mountain Guide Page */
+.mountain-guide {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.mountain-header {
+    margin-bottom: 3rem;
+}
+
+.mountain-hero-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+}
+
+.mountain-header-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+}
+
+.mountain-header-content h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 0.5rem;
+}
+
+.mountain-subtitle-large {
+    font-size: 1.3rem;
+    color: var(--rust);
+    margin-bottom: 2rem;
+}
+
+.mountain-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.info-label {
+    font-size: 0.85rem;
+    color: var(--rust);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-value {
+    font-size: 1.1rem;
+    color: var(--forest-green);
+    font-weight: 500;
+}
+
+.mountain-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.9;
+}
+
+.mountain-content h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--forest-green);
+    margin: 2rem 0 1rem;
+    font-size: 1.8rem;
+}
+
+.mountain-content h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--rust);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.4rem;
+}
+
+.mountain-content p {
+    margin-bottom: 1.2rem;
+}
+
+.mountain-content ul,
+.mountain-content ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.mountain-content li {
+    margin-bottom: 0.5rem;
+}
+
+.related-trips {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 24px;
+    border: 2px solid var(--cream-dark);
+    margin-bottom: 2rem;
+}
+
+.related-trips h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--forest-green);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.trips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trip-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--cream);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.trip-link:hover {
+    transform: translateX(8px);
+    box-shadow: 0 4px 12px rgba(47, 91, 79, 0.1);
+}
+
+.trip-link-title {
+    color: var(--forest-green);
+    font-weight: 500;
+}
+
+.trip-link-date {
+    color: var(--rust);
+    font-size: 0.9rem;
+}
+
+/* About Section */
+.about-section {
+    background: white;
+    padding: 4rem 2rem;
+    border-radius: 32px;
+    margin: 3rem auto;
+    max-width: 1000px;
+    border: 3px solid var(--cream-dark);
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-logo-container {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.about-logo-container .logo-circle {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid var(--forest-green);
+    box-shadow: 0 8px 24px rgba(47, 91, 79, 0.2);
+    background: white;
+}
+
+.about-logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+}
+
+.documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.document-card {
+    background: var(--cream);
+    padding: 2rem;
+    border-radius: 16px;
+    border: 2px solid var(--cream-dark);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.document-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(47, 91, 79, 0.15);
+}
+
+.document-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.document-card h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: var(--forest-green);
+    margin-bottom: 0.5rem;
+}
+
+.document-card p {
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.download-btn {
+    display: inline-block;
+    background: var(--forest-green);
+    color: var(--cream);
+    padding: 0.7rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.download-btn:hover {
+    background: var(--rust);
+}
+
+/* Footer Navigation */
+footer {
+    background: var(--forest-green);
+    color: var(--cream);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.footer-content p {
+    margin-bottom: 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.6rem;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    margin: 2rem auto;
+    width: fit-content;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 12px;
+    background: rgba(245, 241, 232, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--cream);
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.footer-item .icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    fill: currentColor;
+}
+
+.footer-item .icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-item .text {
+    font-size: 0.9rem;
+}
+
+.footer-item:hover {
+    background: var(--rust);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(212, 145, 94, 0.3);
+}
+
+.footer-item:hover .icon {
+    transform: scale(1.1);
+}
+
+.footer-copyright {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1.5rem;
+        position: static;
+    }
+
+    .logo-section {
+        order: 1;
+    }
+
+    .main-nav {
+        /* Navigacija ide u novi red (order 2), preko cijele širine, horizontalno sa ikonama */
+        position: static;
+        order: 2;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-around; /* Bolje distribuira ikone */
+        padding: 0.8rem 0; /* Veći padding za mobilnu traku */
+        background: rgba(255, 255, 255, 0.95);
+        /* PROMJENA: Uklanjamo border-radius: 0; kako bi naslijedio 16px zaobljene ivice. */
+    }
+
+    .nav-item {
+        /* Mijenjamo stil za ikone */
+        width: auto;
+        justify-content: center;
+        padding: 0.5rem 0.8rem;
+        background: transparent;
+        border: none;
+        color: var(--forest-green);
+    }
+    
+    .nav-item:hover {
+        background: var(--cream-dark);
+    }
+
+    /* SKRIVANJE TEKSTA NA MOBILNOM */
+    .nav-item .text {
+        display: none;
+    }
+    
+    .nav-item .icon {
+        width: 24px;
+        height: 24px;
+        /* Povećavamo ikone da budu vidljivije bez teksta */
+    }
+    /* KRAJ SKRIVANJA TEKSTA */
+
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    .logo-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer-item {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .hero h1,
+    .page-hero h1 {
+        font-size: 2rem;
+    }
+
+    .mountains-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .trip-header-content,
+    .trip-content,
+    .mountain-header-content,
+    .mountain-content {
+        padding: 2rem;
+    }
+
+    .trip-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+

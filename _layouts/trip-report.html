@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="trip-report">
+    <header class="trip-header">
+        {% if page.featured_image %}
+        <div class="trip-hero-image" style="background-image: url('{{ page.featured_image | relative_url }}');">
+        </div>
+        {% endif %}
+
+        <div class="trip-header-content">
+            <h1>{{ page.title }}</h1>
+            <div class="trip-meta">
+                <span class="meta-item">📅 {{ page.date | date: "%B %d, %Y" }}</span>
+                <span class="meta-item">📍 {{ page.location }}</span>
+                {% if page.mountain %}
+                <span class="meta-item">⛰️ {{ page.mountain }}</span>
+                {% endif %}
+                {% if page.elevation %}
+                <span class="meta-item">📏 {{ page.elevation }}m</span>
+                {% endif %}
+            </div>
+
+            {% if page.difficulty or page.duration or page.distance %}
+            <div class="trip-stats">
+                {% if page.difficulty %}
+                <div class="stat">
+                    <span class="stat-label">Difficulty</span>
+                    <span class="stat-value">{{ page.difficulty }}</span>
+                </div>
+                {% endif %}
+                {% if page.duration %}
+                <div class="stat">
+                    <span class="stat-label">Duration</span>
+                    <span class="stat-value">{{ page.duration }}</span>
+                </div>
+                {% endif %}
+                {% if page.distance %}
+                <div class="stat">
+                    <span class="stat-label">Distance</span>
+                    <span class="stat-value">{{ page.distance }}</span>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="trip-content">
+        {{ content }}
+    </div>
+
+    {% if page.gallery %}
+    <div class="trip-gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            {% for image in page.gallery %}
+            <img src="{{ image | relative_url }}" alt="Trip photo" class="gallery-image">
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.gpx_file %}
+    <div class="trip-map">
+        <h2>Route Map</h2>
+        <p><a href="{{ page.gpx_file | relative_url }}" class="download-gpx">Download GPX File →</a></p>
+    </div>
+    {% endif %}
+
+    <div class="trip-footer">
+        <a href="{{ '/trips' | relative_url }}" class="back-link">← Back to All Trips</a>
+    </div>
+</article>
