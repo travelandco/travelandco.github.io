@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% seo %}
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S1CQ4K9W6"></script>
-    <script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5b94771b-85d4-4536-a12e-3ec3a720cce3" type="text/javascript" async></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S1CQ4K9W6" data-cookieconsent="ignore"></script>
+    <script data-cookieconsent="ignore">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
+      // Cookiebot ce se pobrinuti za inicijalni consent mode.
+      // Ovdje postavljamo samo osnovnu konfiguraciju.
       gtag('config', 'G-9S1CQ4K9W6');
     </script>
 </head>
