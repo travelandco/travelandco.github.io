@@ -1,101 +1,68 @@
 ---
 layout: default
-title: Contact Us
-permalink: /contact.html
+title: Resources
+permalink: /resources.html
 ---
 
-<div class="contact-page">
-    <div class="contact-content">
-        <div class="contact-icon"></div>
-        <h1 class="contact-title">Get in Touch</h1>
-        <h2 class="contact-subtitle">Share Your Mountain Story</h2>
-        <p class="contact-text">
-            Have a question about our trails? Want to share your hiking experience?
-            We'd love to hear from you! Drop us a message below.
+<div class="resources-page">
+    <div class="resources-content">
+        <h1 class="resources-title">Resources</h1>
+        <h2 class="resources-subtitle">Useful Hiking & Nature Links</h2>
+        <p class="resources-text">
+            Essential tools and websites for hikers and nature enthusiasts
         </p>
 
-        <form 
-            class="contact-form"
-            action="https://formspree.io/f/mzzybogp"
-            method="POST"
-        >
-            <div class="form-group">
-                <label for="name">Your Name</label>
-                <input 
-                    type="text" 
-                    id="name"
-                    name="name" 
-                    placeholder="Ime Prezimenović"
-                    required
-                >
+        <div class="resources-list">
+            <div class="resource-category">
+                <h3>Trail Planning</h3>
+                <a href="https://www.alltrails.com" target="_blank" class="resource-link">AllTrails - Trail Maps & Reviews</a>
+                <a href="https://www.hikingproject.com" target="_blank" class="resource-link">Hiking Project - Mountain Routes</a>
+                <a href="https://caltopo.com" target="_blank" class="resource-link">CalTopo - Topographic Maps</a>
             </div>
 
-            <div class="form-group">
-                <label for="email">Your Email</label>
-                <input 
-                    type="email" 
-                    id="email"
-                    name="email" 
-                    placeholder="john@example.com"
-                    required
-                >
+            <div class="resource-category">
+                <h3>Weather & Conditions</h3>
+                <a href="https://mountain-forecast.com" target="_blank" class="resource-link">Mountain Forecast - Mountain Weather</a>
+                <a href="https://www.yr.no" target="_blank" class="resource-link">Yr.no - Detailed Weather</a>
             </div>
 
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input 
-                    type="text" 
-                    id="subject"
-                    name="subject" 
-                    placeholder="Question about hiking trail"
-                >
+            <div class="resource-category">
+                <h3>Safety & Education</h3>
+                <a href="https://www.rei.com/learn/expert-advice" target="_blank" class="resource-link">REI Expert Advice - Hiking Tips</a>
+                <a href="https://lnt.org" target="_blank" class="resource-link">Leave No Trace - Outdoor Ethics</a>
+                <a href="https://www.mountainproject.com" target="_blank" class="resource-link">Mountain Project - Climbing Info</a>
             </div>
 
-            <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea 
-                    id="message"
-                    name="message" 
-                    rows="6"
-                    placeholder="Tell us about your mountain adventure or ask us anything..."
-                    required
-                ></textarea>
+            <div class="resource-category">
+                <h3>GPS & Navigation</h3>
+                <a href="https://www.gaia.com" target="_blank" class="resource-link">Gaia GPS - Offline Maps</a>
+                <a href="https://fatmap.com" target="_blank" class="resource-link">Fatmap - 3D Mountain Maps</a>
             </div>
+        </div>
 
-            <button type="submit" class="submit-button">
-                <span>Send Message</span>
-                <span class="button-icon"></span>
-            </button>
-        </form>
-
-        <div class="contact-actions">
-            <a href="{{ '/' | relative_url }}" class="contact-link">← Back to Home</a>
+        <div class="resources-actions">
+            <a href="{{ '/' | relative_url }}" class="resources-link">Return to Home</a>
         </div>
     </div>
 </div>
 
 <style>
-    .contact-page {
+    .resources-page {
         min-height: 70vh;
         display: flex;
-        align-items: center;
+        align-items: flex-start; /* Promijenjeno u align-items: flex-start da se sadržaj smjesti na vrh */
         justify-content: center;
         padding: 4rem 2rem;
-        background: linear-gradient(to bottom, var(--cream-dark), var(--cream));
+        background: var(--cream);
     }
 
-    .contact-content {
+    .resources-content {
         text-align: center;
-        max-width: 650px;
+        max-width: 900px;
         width: 100%;
     }
 
-    .contact-icon {
-        font-size: 4rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .contact-title {
+    .resources-title {
         font-family: 'Merriweather', serif;
         font-size: 3rem;
         color: var(--forest-green);
@@ -104,107 +71,70 @@ permalink: /contact.html
         line-height: 1;
     }
 
-    .contact-subtitle {
+    .resources-subtitle {
         font-family: 'Merriweather', serif;
         font-size: 1.5rem;
         color: var(--rust);
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
 
-    .contact-text {
+    .resources-text {
         font-size: 1.1rem;
         color: var(--text-dark);
         margin-bottom: 3rem;
         line-height: 1.8;
     }
 
-    /* Contact Form */
-    .contact-form {
-        background: white;
-        padding: 3rem;
-        border-radius: 24px;
-        border: 2px solid var(--cream-dark);
-        box-shadow: 0 8px 24px rgba(47, 91, 79, 0.12);
-        margin-bottom: 2rem;
+    .resources-list {
         text-align: left;
+        max-width: 600px;
+        margin: 2rem auto;
     }
 
-    .form-group {
-        margin-bottom: 1.5rem;
-    }
-
-    .form-group label {
-        display: block;
-        font-weight: 600;
-        color: var(--forest-green);
-        margin-bottom: 0.5rem;
-        font-size: 0.95rem;
-    }
-
-    .form-group input,
-    .form-group textarea {
-        width: 100%;
-        padding: 0.9rem 1.2rem;
-        border: 2px solid var(--cream-dark);
-        border-radius: 12px;
-        font-family: 'Inter', sans-serif;
-        font-size: 1rem;
-        color: var(--text-dark);
-        background: var(--cream);
-        transition: all 0.3s;
-    }
-
-    .form-group input:focus,
-    .form-group textarea:focus {
-        outline: none;
-        border-color: var(--forest-green);
+    .resource-category {
+        margin-bottom: 2rem;
         background: white;
-        box-shadow: 0 0 0 3px rgba(47, 91, 79, 0.1);
+        padding: 1.5rem;
+        border-radius: 16px;
+        border: 2px solid var(--cream-dark);
+        box-shadow: 0 4px 12px rgba(47, 91, 79, 0.1);
     }
 
-    .form-group textarea {
-        resize: vertical;
-        min-height: 120px;
+    .resource-category h3 {
+        font-family: 'Merriweather', serif;
+        color: var(--forest-green);
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        border-bottom: 1px solid var(--cream-dark);
+        padding-bottom: 0.5rem;
     }
 
-    .submit-button {
-        width: 100%;
-        padding: 1.2rem 2rem;
+    .resource-link {
+        display: block;
+        padding: 0.7rem 1rem;
+        margin-bottom: 0.5rem;
+        background: var(--cream);
+        border-radius: 8px;
+        color: var(--text-dark);
+        text-decoration: none;
+        transition: all 0.3s;
+        border: 1px solid var(--cream-dark);
+        font-weight: 500;
+        box-shadow: 0 2px 4px rgba(47, 91, 79, 0.05);
+    }
+
+    .resource-link:hover {
         background: var(--forest-green);
         color: var(--cream);
-        border: none;
-        border-radius: 12px;
-        font-size: 1.1rem;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.8rem;
-        font-family: 'Inter', sans-serif;
+        transform: translateX(8px);
         box-shadow: 0 4px 12px rgba(47, 91, 79, 0.2);
     }
 
-    .submit-button:hover {
-        background: var(--rust);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(212, 145, 94, 0.3);
+    .resources-actions {
+        margin-top: 3rem;
     }
 
-    .submit-button:active {
-        transform: translateY(0);
-    }
-
-    .button-icon {
-        font-size: 1.2rem;
-    }
-
-    .contact-actions {
-        margin-top: 2rem;
-    }
-
-    .contact-link {
+    .resources-link {
         color: var(--rust);
         text-decoration: none;
         font-weight: 600;
@@ -212,25 +142,25 @@ permalink: /contact.html
         font-size: 1rem;
     }
 
-    .contact-link:hover {
+    .resources-link:hover {
         color: var(--gold);
     }
 
     @media (max-width: 768px) {
-        .contact-title {
+        .resources-title {
             font-size: 2rem;
         }
 
-        .contact-subtitle {
+        .resources-subtitle {
             font-size: 1.2rem;
         }
-
-        .contact-form {
-            padding: 2rem 1.5rem;
+        
+        .resource-category {
+            padding: 1rem;
         }
 
-        .submit-button {
-            font-size: 1rem;
+        .resource-link {
+            padding: 0.6rem 0.8rem;
         }
     }
 </style>
