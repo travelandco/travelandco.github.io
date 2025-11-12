@@ -4,9 +4,12 @@ title: Resources
 permalink: /resources.html
 ---
 <div class="page-hero">
-    <h1>Resources</h1>
-    <p>Useful Hiking & Nature Links</p>
-    <p>Essential tools and websites for hikers and nature enthusiasts</p>
+    <div class="container-narrow">
+        <h1>Resources</h1>
+        <p class="subtitle-text">Useful Hiking & Nature Links</p>
+        <hr class="hero-divider">
+        <p class="subtitle-text-small">Essential tools and websites for hikers and nature enthusiasts</p>
+    </div>
 </div>
 
 <div class="container">
@@ -44,6 +47,35 @@ permalink: /resources.html
 </div>
 
 <style>
+    .page-hero .container-narrow {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    
+    .hero-divider {
+        border: none;
+        height: 2px;
+        background-color: var(--rust); 
+        width: 100%;
+        max-width: 300px;
+        margin: 1.5rem auto;
+    }
+
+    .subtitle-text {
+        font-size: 1.2rem;
+        color: var(--rust);
+        margin-bottom: 0.5rem;
+    }
+
+    .subtitle-text-small {
+        font-size: 1rem;
+        color: var(--text-dark);
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
     .resources-list {
         text-align: left;
         max-width: 600px;
