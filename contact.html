@@ -1,0 +1,236 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact.html
+---
+
+<div class="contact-page">
+    <div class="contact-content">
+        <div class="contact-icon">✉️</div>
+        <h1 class="contact-title">Get in Touch</h1>
+        <h2 class="contact-subtitle">Share Your Mountain Story</h2>
+        <p class="contact-text">
+            Have a question about our trails? Want to share your hiking experience?
+            We'd love to hear from you! Drop us a message below.
+        </p>
+
+        <form 
+            class="contact-form"
+            action="https://formspree.io/f/mzzybogp"
+            method="POST"
+        >
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input 
+                    type="text" 
+                    id="name"
+                    name="name" 
+                    placeholder="John Doe"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input 
+                    type="email" 
+                    id="email"
+                    name="email" 
+                    placeholder="john@example.com"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input 
+                    type="text" 
+                    id="subject"
+                    name="subject" 
+                    placeholder="Question about hiking trail"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea 
+                    id="message"
+                    name="message" 
+                    rows="6"
+                    placeholder="Tell us about your mountain adventure or ask us anything..."
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                <span>Send Message</span>
+                <span class="button-icon">🚀</span>
+            </button>
+        </form>
+
+        <div class="contact-actions">
+            <a href="{{ '/' | relative_url }}" class="contact-link">← Back to Home</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .contact-page {
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(to bottom, var(--cream-dark), var(--cream));
+    }
+
+    .contact-content {
+        text-align: center;
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .contact-icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-title {
+        font-family: 'Merriweather', serif;
+        font-size: 3rem;
+        color: var(--forest-green);
+        font-weight: 900;
+        margin-bottom: 0.5rem;
+        line-height: 1;
+    }
+
+    .contact-subtitle {
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+        color: var(--rust);
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-text {
+        font-size: 1.1rem;
+        color: var(--text-dark);
+        margin-bottom: 3rem;
+        line-height: 1.8;
+    }
+
+    /* Contact Form */
+    .contact-form {
+        background: white;
+        padding: 3rem;
+        border-radius: 24px;
+        border: 2px solid var(--cream-dark);
+        box-shadow: 0 8px 24px rgba(47, 91, 79, 0.12);
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        color: var(--forest-green);
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 0.9rem 1.2rem;
+        border: 2px solid var(--cream-dark);
+        border-radius: 12px;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: var(--text-dark);
+        background: var(--cream);
+        transition: all 0.3s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+        outline: none;
+        border-color: var(--forest-green);
+        background: white;
+        box-shadow: 0 0 0 3px rgba(47, 91, 79, 0.1);
+    }
+
+    .form-group textarea {
+        resize: vertical;
+        min-height: 120px;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 1.2rem 2rem;
+        background: var(--forest-green);
+        color: var(--cream);
+        border: none;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 0 4px 12px rgba(47, 91, 79, 0.2);
+    }
+
+    .submit-button:hover {
+        background: var(--rust);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(212, 145, 94, 0.3);
+    }
+
+    .submit-button:active {
+        transform: translateY(0);
+    }
+
+    .button-icon {
+        font-size: 1.2rem;
+    }
+
+    .contact-actions {
+        margin-top: 2rem;
+    }
+
+    .contact-link {
+        color: var(--rust);
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s;
+        font-size: 1rem;
+    }
+
+    .contact-link:hover {
+        color: var(--gold);
+    }
+
+    @media (max-width: 768px) {
+        .contact-title {
+            font-size: 2rem;
+        }
+
+        .contact-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            padding: 2rem 1.5rem;
+        }
+
+        .submit-button {
+            font-size: 1rem;
+        }
+    }
+</style>
