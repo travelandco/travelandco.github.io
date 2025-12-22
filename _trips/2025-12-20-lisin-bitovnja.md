@@ -1,6 +1,6 @@
 ---
 layout: trip-report
-title: "Lisin: The Cat, the Hunters, and the Smog Escape"
+title: "Lisin: The cat, the hunters, and the smog escape"
 date: 2025-12-20
 location: "Bradina, Bosnia and Herzegovina"
 mountain: "Lisin (Bitovnja)"
