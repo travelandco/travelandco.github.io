@@ -73,3 +73,29 @@ layout: default
         <a href="{{ '/trips' | relative_url }}" class="back-link">← Back to All Trips</a>
     </div>
 </article>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.trip-content img, .gallery-grid img');
+    
+    if (images.length > 0) {
+        const overlay = document.createElement('div');
+        overlay.id = 'lightbox-overlay';
+        document.body.appendChild(overlay);
+
+        const lightboxImg = document.createElement('img');
+        overlay.appendChild(lightboxImg);
+
+        images.forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                overlay.style.display = 'flex';
+            });
+        });
+
+        overlay.addEventListener('click', () => {
+            overlay.style.display = 'none';
+        });
+    }
+});
+</script>
