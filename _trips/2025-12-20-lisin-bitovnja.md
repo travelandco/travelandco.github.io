@@ -31,11 +31,14 @@ It seems to be becoming a tradition that we must be chaperoned by the local wild
 
 We decided not to give him a name to avoid a painful breakup later. Unfortunately, he was not exactly in peak mountain athlete condition. He followed us for about two kilometers, but his frequent tactical naps and heavy breathing suggested he is more of a professional sofa warrior. Eventually, with a loud, dramatic meow that clearly meant "I am not paid enough for this," he called off the expedition. We hope he made it home safe and that our little cardio session helped him burn off some of those kibbles!
 
+![Trail to Lisin](/assets/images/trips/lisin/lisin-1.jpg)
+
 ### Hunters and high altitudes
 
 The path took us along a road where we encountered various hunters in their 4x4 vehicles. We heard plenty of barking, or at least we hope it was the sound of hunting dogs and not some wolves or even wild boars. Thankfully, this time the dogs stayed with the hunters and did not try to join our hiking club. The final stretch to the 1742m summit involved a macadam road and some stubborn, un melted snow that reminded us it is still very much December.
 
-![Trail to Lisin](/assets/images/trips/lisin/lisin-1.jpg)
+
+![Mountain Nature](/assets/images/trips/lisin/lisin-2.jpg)
 
 ### The View above the clouds
 
@@ -47,7 +50,7 @@ Standing at the top was surreal. The world below was trapped in a sea of clouds,
 
 We decided to make it a circular tour by following the other group. "Standard trail" turned out to be hiker code for "steep forest with barely any markings." As the slope got steeper, the thought of "is this a minefield?" crossed our minds. We brushed it off with the classic logic: "If it is dangerous, surely someone would have put a sign, right?" In the future, we will definitely check the mine map apps before the hike.
 
-![Mountain Nature](/assets/images/trips/lisin/lisin-2.jpg)
+![Mountain Nature](/assets/images/trips/lisin/lisin-4.jpg)
 
 ### Post hike recovery
 
