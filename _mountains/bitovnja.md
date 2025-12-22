@@ -7,7 +7,7 @@ highest_peak: "Lisin (1742m)"
 range: "Central Dinarides"
 difficulty: "Easy to Moderate"
 best_season: "Year-round"
-visited_date: "2025-10-12"
+visited_date: "2025-12-20"
 ---
 
 Bitovnja acts as a natural border between central Bosnia and Herzegovina, characterized by its accessibility and gentle yet impressive slopes.
