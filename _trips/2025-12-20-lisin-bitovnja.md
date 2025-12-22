@@ -17,7 +17,7 @@ gallery:
 gpx_file: /assets/gpx/lisin-2025-12-20.gpx
 ---
 
-### Operation sun hunt: Escape from urban smog soup
+### Operation Sun hunt: Escape from urban smog soup
 
 After a months long hiatus from the trails, we finally staged a daring prison break from the city's thick, gray smog. Our mission? To verify a wild rumor that a yellow orb called "The Sun" actually exists. Spoiler alert: It does, and it is magnificent.
 
