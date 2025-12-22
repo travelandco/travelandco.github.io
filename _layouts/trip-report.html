@@ -2,6 +2,18 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+    #map {
+        height: 400px;
+        width: 100%;
+        border-radius: 24px;
+        margin: 1.5rem 0;
+        border: 2px solid var(--cream-dark);
+        z-index: 1;  
+    }
+</style>
+
 <article class="trip-report">
     <header class="trip-header">
         {% if page.featured_image %}
@@ -65,6 +77,7 @@ layout: default
     {% if page.gpx_file %}
     <div class="trip-map">
         <h2>Route Map</h2>
+        <div id="map"></div>
         <p><a href="{{ page.gpx_file | relative_url }}" class="download-gpx">Download GPX File →</a></p>
     </div>
     {% endif %}
@@ -74,28 +87,45 @@ layout: default
     </div>
 </article>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('.trip-content img, .gallery-grid img');
-    
     if (images.length > 0) {
-        const overlay = document.createElement('div');
-        overlay.id = 'lightbox-overlay';
-        document.body.appendChild(overlay);
-
-        const lightboxImg = document.createElement('img');
-        overlay.appendChild(lightboxImg);
-
+        let overlay = document.getElementById('lightbox-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'lightbox-overlay';
+            document.body.appendChild(overlay);
+            const lightboxImg = document.createElement('img');
+            overlay.appendChild(lightboxImg);
+            overlay.addEventListener('click', () => overlay.style.display = 'none');
+        }
+        const lightboxImg = overlay.querySelector('img');
         images.forEach(img => {
             img.addEventListener('click', () => {
                 lightboxImg.src = img.src;
                 overlay.style.display = 'flex';
             });
         });
+    }
 
-        overlay.addEventListener('click', () => {
-            overlay.style.display = 'none';
-        });
+    const mapElement = document.getElementById('map');
+    if (mapElement && "{{ page.gpx_file }}") {
+        const map = L.map('map');
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        new L.GPX("{{ page.gpx_file | relative_url }}", {
+            async: true,
+            marker_options: { startIconUrl: null, endIconUrl: null, shadowUrl: null },
+            polyline_options: { color: '#D4915E', opacity: 0.8, weight: 5 }
+        }).on('loaded', function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
     }
 });
 </script>
