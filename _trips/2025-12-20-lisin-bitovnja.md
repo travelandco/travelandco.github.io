@@ -25,7 +25,7 @@ After a months long hiatus from the trails, we finally staged a daring prison br
 
 ### The four legged guide (Version 2.0)
 
-It seems to be becoming a tradition that we must be championed by the local wildlife. Previously, we had a Labrador on our way to Skakavac. This time, our guide was a chunky, fluffy cat with a collar and a thick winter coat. 
+It seems to be becoming a tradition that we must be chaperoned by the local wildlife. Previously, we had a Labrador on our way to Skakavac. This time, our guide was a chunky, fluffy cat with a collar and a thick winter coat. 
 
 ![Mr. Meow-gi](/assets/images/trips/lisin/lisin-cat.jpg)
 
