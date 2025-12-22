@@ -8,9 +8,14 @@ layout: default
         height: 400px;
         width: 100%;
         border-radius: 24px;
-        margin: 1.5rem 0;
+        margin: 2rem 0;
         border: 2px solid var(--cream-dark);
-        z-index: 1;  
+        z-index: 1;
+    }
+    .map-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
     }
 </style>
 
@@ -26,38 +31,25 @@ layout: default
             <div class="trip-meta">
                 <span class="meta-item">📅 {{ page.date | date: "%B %d, %Y" }}</span>
                 <span class="meta-item">📍 {{ page.location }}</span>
-                {% if page.mountain %}
-                <span class="meta-item">⛰️ {{ page.mountain }}</span>
-                {% endif %}
-                {% if page.elevation %}
-                <span class="meta-item">📏 {{ page.elevation }}m</span>
-                {% endif %}
+                {% if page.mountain %}<span class="meta-item">⛰️ {{ page.mountain }}</span>{% endif %}
+                {% if page.elevation %}<span class="meta-item">📏 {{ page.elevation }}m</span>{% endif %}
             </div>
 
             {% if page.difficulty or page.duration or page.distance %}
             <div class="trip-stats">
-                {% if page.difficulty %}
-                <div class="stat">
-                    <span class="stat-label">Difficulty</span>
-                    <span class="stat-value">{{ page.difficulty }}</span>
-                </div>
-                {% endif %}
-                {% if page.duration %}
-                <div class="stat">
-                    <span class="stat-label">Duration</span>
-                    <span class="stat-value">{{ page.duration }}</span>
-                </div>
-                {% endif %}
-                {% if page.distance %}
-                <div class="stat">
-                    <span class="stat-label">Distance</span>
-                    <span class="stat-value">{{ page.distance }}</span>
-                </div>
-                {% endif %}
+                {% if page.difficulty %}<div class="stat"><span class="stat-label">Difficulty</span><span class="stat-value">{{ page.difficulty }}</span></div>{% endif %}
+                {% if page.duration %}<div class="stat"><span class="stat-label">Duration</span><span class="stat-value">{{ page.duration }}</span></div>{% endif %}
+                {% if page.distance %}<div class="stat"><span class="stat-label">Distance</span><span class="stat-value">{{ page.distance }}</span></div>{% endif %}
             </div>
             {% endif %}
         </div>
     </header>
+
+    {% if page.gpx_file %}
+    <div class="map-wrapper">
+        <div id="map"></div>
+    </div>
+    {% endif %}
 
     <div class="trip-content">
         {{ content }}
@@ -76,8 +68,6 @@ layout: default
 
     {% if page.gpx_file %}
     <div class="trip-map">
-        <h2>Route Map</h2>
-        <div id="map"></div>
         <p><a href="{{ page.gpx_file | relative_url }}" class="download-gpx">Download GPX File →</a></p>
     </div>
     {% endif %}
@@ -92,6 +82,7 @@ layout: default
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+    
     const images = document.querySelectorAll('.trip-content img, .gallery-grid img');
     if (images.length > 0) {
         let overlay = document.getElementById('lightbox-overlay');
@@ -99,19 +90,17 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay = document.createElement('div');
             overlay.id = 'lightbox-overlay';
             document.body.appendChild(overlay);
-            const lightboxImg = document.createElement('img');
-            overlay.appendChild(lightboxImg);
+            overlay.appendChild(document.createElement('img'));
             overlay.addEventListener('click', () => overlay.style.display = 'none');
         }
         const lightboxImg = overlay.querySelector('img');
-        images.forEach(img => {
-            img.addEventListener('click', () => {
-                lightboxImg.src = img.src;
-                overlay.style.display = 'flex';
-            });
-        });
+        images.forEach(img => img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            overlay.style.display = 'flex';
+        }));
     }
 
+    
     const mapElement = document.getElementById('map');
     if (mapElement && "{{ page.gpx_file }}") {
         const map = L.map('map');
@@ -123,9 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             async: true,
             marker_options: { startIconUrl: null, endIconUrl: null, shadowUrl: null },
             polyline_options: { color: '#D4915E', opacity: 0.8, weight: 5 }
-        }).on('loaded', function(e) {
-            map.fitBounds(e.target.getBounds());
-        }).addTo(map);
+        }).on('loaded', e => map.fitBounds(e.target.getBounds())).addTo(map);
     }
 });
 </script>
