@@ -35,7 +35,7 @@ We decided not to give him a name to avoid a painful breakup later. Unfortunatel
 
 ### Hunters and high altitudes
 
-The path took us along a road where we encountered various hunters in their 4x4 vehicles. We heard plenty of barking, or at least we hope it was the sound of hunting dogs and not some wolves or even wild boars. Thankfully, this time the dogs stayed with the hunters and did not try to join our hiking club. The final stretch to the 1742m summit involved a macadam road and some stubborn, un melted snow that reminded us it is still very much December.
+The path took us along a road where we encountered various hunters in their 4x4 vehicles. We heard plenty of barking, or at least we hope it was the sound of hunting dogs and not some wolves or even wild boars. Thankfully, this time those creatures did not try to join our hiking club. The final stretch to the 1742m summit involved a macadam road and some stubborn, unmelted snow that reminded us it is still very much December.
 
 
 ![Mountain Nature](/assets/images/trips/lisin/lisin-2.jpg)
