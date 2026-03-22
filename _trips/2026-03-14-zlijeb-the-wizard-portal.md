@@ -22,7 +22,7 @@ gallery:
   - /assets/images/trips/zlijeb/zlijeb-rulof.jpg
 gpx_file: /assets/gpx/zlijeb-2026-03-14.gpx
 ---
-Some days the mountain is a backdrop. On March 14th, Žlijeb felt more like a diagnostic — as if the climb was less about elevation and more about what you notice when the noise of the lowlands finally falls behind you.
+Some days the mountain is a backdrop. On March 14th, Žlijeb felt more like a diagnostic, as if the climb was less about elevation and more about what you notice when the noise of the lowlands finally falls behind you.
 
 ## I. Dramatis personae: The trailhead encounters
 
