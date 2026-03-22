@@ -94,6 +94,5 @@ On the way home, one thought stayed. The Wizard doesn't hold you with chains —
 
 We were just catching up.
 
-We truly weren't in Kansas anymore.
 
 ---
