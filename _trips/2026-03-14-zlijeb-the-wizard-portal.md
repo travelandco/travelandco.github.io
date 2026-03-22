@@ -32,29 +32,29 @@ The second was less expected. Just a hundred meters up a track barely passable b
 
 ![The legendary Fićo — caught on the normal road, just before the offroad descent began.](/assets/images/trips/zlijeb/zlijeb-fico.jpg)
 
-Standing in the open air, a mere 200 meters from his own front door, he was changing into his long johns without haste or audience. There was nothing comic about it on reflection — only a complete absence of performance, the ease of a man who has spent enough time on his own mountain that self-consciousness became unnecessary long ago. Some people live freely without making a philosophy of it.
+Standing in the open air, a mere 200 meters from his own front door, he was changing into his long johns without haste or audience. There was nothing comic about it on reflection, only a complete absence of performance, the ease of a man who has spent enough time on his own mountain that self-consciousness became unnecessary long ago. Some people live freely without making a philosophy of it.
 
 ## II. The green tunnel and the ontological glitch
 
-The forest section was steady climbing — roots, then flat stone-paved stretches, then roots again. A few birds called from somewhere above the canopy, unhurried and indifferent to the schedule. Mostly it was quiet in the way forests are quiet: full of small sounds that don't add up to noise.
+The forest section was steady climbing. Roots, then flat stone-paved stretches, then roots again. A few birds called from somewhere above the canopy, unhurried and indifferent to the schedule. Mostly it was quiet in the way forests are quiet: full of small sounds that don't add up to noise.
 
 ![The forest begins its audit.](/assets/images/trips/zlijeb/zlijeb-1.jpg)
 
-Higher up, the trees thinned and the rock took over — bare, open, exposed to whatever the sky was doing. The visual monotony was eventually broken by a surreal artifact hanging from a branch: a discarded t-shirt with the inscription: **"Toto, I don't think we're in Kansas anymore."**
+Higher up, the trees thinned and the rock took over, bare, open, exposed to whatever the sky was doing. The visual monotony was eventually broken by a surreal artifact hanging from a branch: a discarded T-shirt with the inscription: **"Toto, I don't think we're in Kansas anymore."**
 
 ![The ontological warning: glitch in the Oz interface.](/assets/images/trips/zlijeb/zlijeb-oz.jpg)
 
-This triggered a recursive discussion. Our initial confusion between the *Wizard of Oz* and *Alice in Wonderland* led somewhere worth following. A joke was made about Alice and her consumption of psychedelics — perhaps the t-shirt was not just a pop-culture relic but a genuine marker of a threshold crossed, a shift in the register of things.
+This triggered a discussion, our initial confusion between the *Wizard of Oz* and *Alice in Wonderland* led somewhere worth following. A joke was made about Alice and her consumption of psychedelics. Perhaps the T-shirt was not just a pop-culture relic but a genuine marker of a threshold crossed, a shift in the register of things.
 
 We recalled Balašević's lyrics from *Živeti slobodno*:
 
-> *"Šta na kraju bidne, pa znaš — putnici za Sidnej, 'ajmo, izlaz taj i taj..."*
-> *(And what happens in the end, well you know — passengers for Sydney, come on, gate such-and-such...)*
+> *"Šta na kraju bidne, pa znaš... putnici za Sidnej, 'ajmo, izlaz taj i taj..."*
+> *(And what happens in the end, well you know — passengers for Sydney, come on, exit gate that-and-that...)*
 >
 > *"Dokle, bre, da nas voza zli čarobnjak iz Oza?"*
 > *(How long will the Wicked Wizard of Oz keep driving us around?)*
 
-The sequence matters: first the resigned shrug — *well, you know how it ends* — and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an 'elsewhere', while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic — an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
+The sequence matters: first the resigned shrug, *well, you know how it ends*  and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an "elsewhere", while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic, an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
 
 ![Persistent elevation, visual repetition.](/assets/images/trips/zlijeb/zlijeb-2.jpg)
 
@@ -64,19 +64,19 @@ Reaching the viewpoint opened up a sweeping view over a valley far below. Near t
 
 ![The unutilized buffer: The Žlijeb mountain hut.](/assets/images/trips/zlijeb/zlijeb-3.jpg)
 
-We were "light" by necessity — no extra clothes, no food, and no toothbrushes.
+We were "light" by necessity. No extra clothes, no food, and no toothbrushes.
 
 ![The summit wall, read from below.](/assets/images/trips/zlijeb/zlijeb-bottom.jpg)
 
-Reaching the precipice, the scale of the landscape hit hard. The massive wall of Veliki Kuk dominates the view from above — a sheer vertical drop that takes a moment to fully register.
+Reaching the precipice, the scale of the landscape hit hard. The massive wall of Veliki Kuk dominates the view from above, a sheer vertical drop that takes a moment to fully register.
 
 ![The sudden vertical shock.](/assets/images/trips/zlijeb/zlijeb-4.jpg)
 
 ![A valley swallowed by distance below, Veliki Kuk above.](/assets/images/trips/zlijeb/zlijeb-5.jpg)
 
-The famous "Instagram Bench" was occupied by hikers less interested in the abyss and more focused on their **iQOS devices** and probably social media metrics. It was a classic **Goodhart's Law** scenario: when a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like."
+The famous "Instagram bench" was occupied by hikers less interested in the abyss and more focused on their iQOS devices and probably social media metrics. It was a classic Goodhart's Law scenario. When a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like".
 
-Nearby, a squirrel feeder was covered in inscriptions. Among them, we found the familiar **"Rulof, Lucy"** — a name we've encountered as graffiti across the urban landscape of Sarajevo.
+Nearby, a squirrel feeder was covered in inscriptions. Among them, we found the familiar "Rulof, Lucy", a name we've encountered as graffiti across the urban landscape of Sarajevo.
 
 ![Urban leakage: The Rulof signature on the vertical frontier.](/assets/images/trips/zlijeb/zlijeb-rulof.jpg)
 
@@ -84,13 +84,13 @@ Seeing a city signature in this vertical wilderness felt like a leakage between 
 
 ## IV. The return: Logic, refueling, and future system states
 
-On the descent, we passed the van driver again — now fully awake and talkative. A former musician, now helping his son run a transport operation. Before we reached the car, he had answered every logistical question we'd been carrying about the area since before we arrived.
+On the descent, we passed the van driver again, now fully awake and talkative. A former musician, now helping his son run a transport operation. Before we reached the car, he had answered every logistical question we'd been carrying since before we arrived.
 
-As we drove back toward Sarajevo, a new plan took shape. Over the May Day long weekend, we are looking at a multi-day return to **Durmitor**. Since it is only late March, the "adjacent possible" suggests we might squeeze in another summit during April.
+As we drove back toward Sarajevo, a new plan took shape. Over the May Day long weekend, we are looking at a multi-day return to Durmitor. But, since it is only late March, the "adjacent possible" suggests we might squeeze in another summit during April.
 
-Our final stop was **CJ** in Sarajevo. Having been diverted from **Vrata Hercegovine** due to the high demand for Iftar reservations, we opted for the buffet and picked our fuel straight from the line.
+Our final stop was CJ in Sarajevo. Having been diverted from Vrata Hercegovine due to the high demand for Iftar reservations, we opted for the buffet and picked our fuel straight from the line.
 
-On the way home, one thought stayed. The Wizard doesn't hold you with chains — he holds you with announcements. Gate changes, departures, redirections, always one more thing to wait for. But somewhere back at the trailhead, a man in long johns had already opted out of that arrangement entirely. No gate, no schedule, no performance. Just his mountain, his car, and his own timing.
+On the way home, one thought stayed. The Wizard doesn't hold you with chains, he holds you with announcements. Gate changes, departures, redirections, always one more thing to wait for. But somewhere back at the trailhead, a man in long johns had already opted out of that arrangement entirely. No gate, no schedule, no performance. Just his mountain, his car, and his own timing.
 
 We were just catching up.
 
