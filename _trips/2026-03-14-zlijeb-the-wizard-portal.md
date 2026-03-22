@@ -1,6 +1,6 @@
 ---
 layout: trip-report
-title: "Žlijeb: The Wizard's Gate"
+title: "Žlijeb: The Wizard's portal"
 date: 2026-03-14
 location: "Bosnia and Herzegovina"
 mountain: "Čvrsnica (Žlijeb)"
