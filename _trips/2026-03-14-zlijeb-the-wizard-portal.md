@@ -9,15 +9,15 @@ difficulty: "Moderate"
 duration: "5 hours"
 distance: "9.5 km"
 tags: [cvrsnica, viewpoint, spring, system-audit]
-featured_image: /assets/images/zlijeb/zlijeb-4.jpg
+featured_image: assets/images/trips/zlijeb/zlijeb-4.jpg
 gallery:
-  - /assets/images/zlijeb/zlijeb-1.jpg
-  - /assets/images/zlijeb/zlijeb-2.jpg
-  - /assets/images/zlijeb/zlijeb-3.jpg
-  - /assets/images/zlijeb/zlijeb-5.jpg
-  - /assets/images/zlijeb/zlijeb-fico.jpg
-  - /assets/images/zlijeb/zlijeb-oz.jpg
-  - /assets/images/zlijeb/zlijeb-rulof.jpg
+  - assets/images/trips/zlijeb/zlijeb-1.jpg
+  - assets/images/trips/zlijeb/zlijeb-2.jpg
+  - assets/images/trips/zlijeb/zlijeb-3.jpg
+  - assets/images/trips/zlijeb/zlijeb-5.jpg
+  - assets/images/trips/zlijeb/zlijeb-fico.jpg
+  - assets/images/trips/zlijeb/zlijeb-oz.jpg
+  - assets/images/trips/zlijeb/zlijeb-rulof.jpg
 gpx_file: /assets/gpx/zlijeb-2026-03-14.gpx
 ---
 Some days the mountain is a backdrop. On March 14th, Žlijeb felt more like a diagnostic — as if the climb was less about elevation and more about what you notice when the noise of the lowlands finally falls behind you.
@@ -28,7 +28,7 @@ Before a single step uphill, the trailhead had already introduced two characters
 
 The second was less expected. Just a hundred meters up a track barely passable by anything with four wheels, a local gentleman and his **Zastava 750 (Fićo)** had arrived at a point that would humble most modern 4x4s.
 
-![The legendary Fićo — caught on the normal road, just before the offroad descent began.](/assets/images/zlijeb/zlijeb-fico.jpg)
+![The legendary Fićo — caught on the normal road, just before the offroad descent began.](assets/images/trips/zlijeb/zlijeb-fico.jpg)
 
 Standing in the open air, a mere 200 meters from his own front door, he was changing into his long johns without haste or audience. There was nothing comic about it on reflection — only a complete absence of performance, the ease of a man who has spent enough time on his own mountain that self-consciousness became unnecessary long ago. Some people live freely without making a philosophy of it.
 
@@ -36,11 +36,11 @@ Standing in the open air, a mere 200 meters from his own front door, he was chan
 
 The forest section was steady climbing — roots, then flat stone-paved stretches, then roots again. A few birds called from somewhere above the canopy, unhurried and indifferent to the schedule. Mostly it was quiet in the way forests are quiet: full of small sounds that don't add up to noise.
 
-![The forest begins its audit.](/assets/images/zlijeb/zlijeb-1.jpg)
+![The forest begins its audit.](assets/images/trips/zlijeb/zlijeb-1.jpg)
 
 Higher up, the trees thinned and the rock took over — bare, open, exposed to whatever the sky was doing. The visual monotony was eventually broken by a surreal artifact hanging from a branch: a discarded t-shirt with the inscription: **"Toto, I don't think we're in Kansas anymore."**
 
-![The ontological warning: glitch in the Oz interface.](/assets/images/zlijeb/zlijeb-oz.jpg)
+![The ontological warning: glitch in the Oz interface.](assets/images/trips/zlijeb/zlijeb-oz.jpg)
 
 This triggered a recursive discussion. Our initial confusion between the *Wizard of Oz* and *Alice in Wonderland* led somewhere worth following. A joke was made about Alice and her consumption of psychedelics — perhaps the t-shirt was not just a pop-culture relic but a genuine marker of a threshold crossed, a shift in the register of things.
 
@@ -54,25 +54,25 @@ We recalled Balašević's lyrics from *Živeti slobodno*:
 
 The sequence matters: first the resigned shrug — *well, you know how it ends* — and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an 'elsewhere', while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic — an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
 
-![Persistent elevation, visual repetition.](/assets/images/zlijeb/zlijeb-2.jpg)
+![Persistent elevation, visual repetition.](assets/images/trips/zlijeb/zlijeb-2.jpg)
 
 ## III. The viewpoint and the metric displacement
 
 Reaching the viewpoint opened up a sweeping view over a valley far below. Near the summit, there is a mountain hut where one can stay, but once again, we bypassed this logistical option.
 
-![The unutilized buffer: The Žlijeb mountain hut.](/assets/images/zlijeb/zlijeb-3.jpg)
+![The unutilized buffer: The Žlijeb mountain hut.](assets/images/trips/zlijeb/zlijeb-3.jpg)
 
 We were "light" by necessity — no extra clothes, no food, and no toothbrushes. Reaching the precipice, the scale of the landscape hit hard. The massive wall of Veliki Kuk dominates the view from above — a sheer vertical drop that takes a moment to fully register.
 
-![The sudden vertical shock.](/assets/images/zlijeb/zlijeb-4.jpg)
+![The sudden vertical shock.](assets/images/trips/zlijeb/zlijeb-4.jpg)
 
-![A valley swallowed by distance below, Veliki Kuk above.](/assets/images/zlijeb/zlijeb-5.jpg)
+![A valley swallowed by distance below, Veliki Kuk above.](assets/images/trips/zlijeb/zlijeb-5.jpg)
 
 The famous "Instagram Bench" was occupied by hikers less interested in the abyss and more focused on their **iQOS devices** and probably social media metrics. It was a classic **Goodhart's Law** scenario: when a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like."
 
 Nearby, a squirrel feeder was covered in inscriptions. Among them, we found the familiar **"Rulof, Lucy"** — a name we've encountered as graffiti across the urban landscape of Sarajevo.
 
-![Urban leakage: The Rulof signature on the vertical frontier.](/assets/images/zlijeb/zlijeb-rulof.jpg)
+![Urban leakage: The Rulof signature on the vertical frontier.](assets/images/trips/zlijeb/zlijeb-rulof.jpg)
 
 Seeing a city signature in this vertical wilderness felt like a leakage between two worlds that were never supposed to touch.
 
