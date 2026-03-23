@@ -49,10 +49,14 @@ This triggered a discussion, our initial confusion between the *Wizard of Oz* an
 We recalled Balašević's lyrics from *Živeti slobodno*:
 
 > *"Šta na kraju bidne, pa znaš... putnici za Sidnej, 'ajmo, izlaz taj i taj..."*
-> *(And what happens in the end, well you know — passengers for Sydney, come on, exit gate that-and-that...)*
+> *(And what happens in the end, well you know... passengers for Sydney, come on, exit gate that-and-that...)*
 >
 > *"Dokle, bre, da nas voza zli čarobnjak iz Oza?"*
 > *(How long will the Wicked Wizard of Oz keep driving us around?)*
+
+[![Živeti slobodno - Đorđe Balašević](https://img.youtube.com/vi/1N77NaxlGlU/0.jpg)](https://www.youtube.com/watch?v=1N77NaxlGlU)
+*Soundtrack of the transition: Živeti slobodno – Đorđe Balašević.*
+
 
 The sequence matters: first the resigned shrug, *well, you know how it ends*  and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an "elsewhere", while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic, an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
 
@@ -74,7 +78,7 @@ Reaching the precipice, the scale of the landscape hit hard. The massive wall of
 
 ![A valley swallowed by distance below, Veliki Kuk above.](/assets/images/trips/zlijeb/zlijeb-5.jpg)
 
-The famous "Instagram bench" was occupied by hikers less interested in the abyss and more focused on their iQOS devices and probably social media metrics. It was a classic Goodhart's Law scenario. When a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like".
+The famous "Instagram bench" was occupied by hikers less interested in the abyss and more focused on their iQOS devices and probably social media metrics. It was a classic Goodhart's Law scenario, when a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like".
 
 Nearby, a squirrel feeder was covered in inscriptions. Among them, we found the familiar "Rulof, Lucy", a name we've encountered as graffiti across the urban landscape of Sarajevo.
 
