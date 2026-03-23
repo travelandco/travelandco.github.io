@@ -72,7 +72,7 @@ Reaching the viewpoint opened up a sweeping view over a valley far below. Near t
 
 ![The unutilized buffer: The Žlijeb mountain hut.](/assets/images/trips/zlijeb/zlijeb-3.jpg)
 
-We were "light" by necessity. No extra clothes, no food, and no toothbrushes. The wind at the top had an opinion about everything, the kind of cold that doesn't threaten, it just reminds you where you are.
+We were "light" by necessity. No extra clothes, no food, and no toothbrushes. 
 
 ![The summit wall, read from below.](/assets/images/trips/zlijeb/zlijeb-bottom.jpg)
 
