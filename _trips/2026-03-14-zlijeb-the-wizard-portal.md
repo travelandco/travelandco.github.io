@@ -80,7 +80,9 @@ Reaching the precipice, the scale of the landscape hit hard. The massive wall of
 
 ![A valley swallowed by distance below, Veliki Kuk above.](/assets/images/trips/zlijeb/zlijeb-5.jpg)
 
-The famous "Instagram bench" was occupied by hikers less interested in the abyss and more focused on their iQOS devices and probably social media metrics. It was a classic Goodhart's Law scenario, when a scenic spot becomes a target for a photo, the actual appreciation of nature is sacrificed for the metric of the "like".
+The famous "Instagram Bench" was occupied by a group of hikers, focused on their iQOS devices and the digital capture of the scene. At first glance, it felt like a classic Goodhart’s Law scenario, where the "like" becomes the target and the immediate appreciation of the abyss is traded for social media metrics. However, one could also view this as a modern necessity, a way to anchor the overwhelming scale of the landscape into something tangible. 
+
+Perhaps the photo and the smoke are just contemporary rituals, a digital timestamp used to bridge the gap between the raw verticality of the mountain and the structured reality they eventually have to return to.
 
 Nearby, a squirrel feeder was covered in inscriptions. Among them, we found the familiar "Rulof, Lucy", a name we've encountered as graffiti across the urban landscape of Sarajevo.
 
