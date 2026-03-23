@@ -80,7 +80,7 @@ Reaching the precipice, the scale of the landscape hit hard. The massive wall of
 
 ![A valley swallowed by distance below, Veliki Kuk above.](/assets/images/trips/zlijeb/zlijeb-5.jpg)
 
-The famous "Instagram Bench" was occupied by a group of hikers, focused on their iQOS devices and the digital capture of the scene. At first glance, it felt like a classic Goodhart’s Law scenario, where the "like" becomes the target and the immediate appreciation of the abyss is traded for social media metrics. However, one could also view this as a modern necessity, a way to anchor the overwhelming scale of the landscape into something tangible. 
+The famous "Instagram Bench" was occupied by a group of hikers, focused on their iQOS devices and the digital capture of the scene. At first glance, it felt like a classic Goodhart’s Law scenario, where the "like" becomes the target and the immediate appreciation of the abyss is traded for social media metrics. However, one could also view this as a modern necessity, a way to anchor the scale of the landscape into something tangible. 
 
 Perhaps the photo and the smoke are just contemporary rituals, a digital timestamp used to bridge the gap between the raw verticality of the mountain and the structured reality they eventually have to return to.
 
@@ -92,9 +92,9 @@ Seeing a city signature in this vertical wilderness felt like a leakage between 
 
 ## IV. The return: Logic, refueling, and future system states
 
-On the descent, we passed the van driver again, now fully awake and talkative. A former musician, now helping his son run a transport operation. Before we reached the car, he had answered every logistical question we'd been carrying since before we arrived.
+On the descent, we passed the van driver again, now fully awake and talkative. A former musician, now helping his son run a transport operation. Before we reached the car, he had answered every logistical every question we'd been saving up.
 
-As we drove back toward Sarajevo, a new plan took shape. Over the May Day long weekend, we are looking at a multi-day return to Durmitor. But, since it is only late March, the "adjacent possible" suggests we might squeeze in another summit during April.
+As we drove back toward Sarajevo, a new plan took shape. Over the May Day long weekend, we are looking at a multi-day return to Durmitor. But since it is only late March, the "adjacent possible" suggests we might squeeze in another summit during April.
 
 Our final stop was CJ in Sarajevo. Having been diverted from Vrata Hercegovine due to the high demand for Iftar reservations, we opted for the buffet and picked our fuel straight from the line.
 
