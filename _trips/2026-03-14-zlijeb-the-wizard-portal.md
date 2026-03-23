@@ -44,6 +44,9 @@ Higher up, the trees thinned and the rock took over, bare, open, exposed to what
 
 ![The ontological warning: glitch in the Oz interface.](/assets/images/trips/zlijeb/zlijeb-oz.jpg)
 
+[![Not Kansas ](https://img.youtube.com/vi/1N77NaxlGlU/0.jpg)](https://www.youtube.com/watch?v=1N77NaxlGlU)
+ 
+
 This triggered a discussion, our initial confusion between the *Wizard of Oz* and *Alice in Wonderland* led somewhere worth following. A joke was made about Alice and her consumption of psychedelics. Perhaps the T-shirt was not just a pop-culture relic but a genuine marker of a threshold crossed, a shift in the register of things.
 
 We recalled Balašević's lyrics from *Živeti slobodno*:
@@ -54,8 +57,6 @@ We recalled Balašević's lyrics from *Živeti slobodno*:
 > *"Dokle, bre, da nas voza zli čarobnjak iz Oza?"*
 > *(How long will the Wicked Wizard of Oz keep driving us around?)*
 
-[![Živeti slobodno - Đorđe Balašević](https://img.youtube.com/vi/1N77NaxlGlU/0.jpg)](https://www.youtube.com/watch?v=1N77NaxlGlU)
-*Soundtrack of the transition: Živeti slobodno – Đorđe Balašević.*
 
 
 The sequence matters: first the resigned shrug, *well, you know how it ends*  and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an "elsewhere", while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic, an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
