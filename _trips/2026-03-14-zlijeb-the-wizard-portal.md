@@ -57,7 +57,8 @@ We recalled Balašević's lyrics from *Živeti slobodno*:
 > *"Dokle, bre, da nas voza zli čarobnjak iz Oza?"*
 > *(How long will the Wicked Wizard of Oz keep driving us around?)*
 
-
+[![Živeti slobodno - Đorđe Balašević](https://img.youtube.com/vi/CNXvLbocnkI/0.jpg)](https://www.youtube.com/watch?v=CNXvLbocnkI)
+*The soundtrack for the Oz audit: Đorđe Balašević - Živeti slobodno*
 
 The sequence matters: first the resigned shrug, *well, you know how it ends*  and only then the departure announcement. It is not a journey. It is a managed exit. Are we merely passengers forever queued for the next flight to an "elsewhere", while the Wizard keeps the gate numbers changing just fast enough that no one sits down? Or is the hike itself a refusal of that logic, an attempt to **"conquer with a song"** and find the **"shortcut through the sky"** (*nebo je tvoja prečica*)? The trail didn't answer, but it felt like a place where that question could at least be asked without someone announcing a gate change.
 
