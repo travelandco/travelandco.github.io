@@ -3,10 +3,10 @@ layout: mountain
 title: "Biokovo"
 subtitle: "Coastal Peaks"
 location: "Croatia"
-highest_peak: "Sveti Jure (1762m)"
+highest_peak: "Vošac (1422m)"
 range: "Dinaric Alps"
-difficulty: "Moderate"
-best_season: "May - October"
+difficulty: "Moderate (Umjereno zahtjevna)"
+best_season: "March - October"
 visited_date: "2025-04-15" 
 ---
 
